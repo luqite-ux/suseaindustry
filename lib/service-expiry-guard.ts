@@ -8,7 +8,8 @@ export async function isWebsiteServiceAvailable(){
     const response=await fetch(`${base}/api/public/service-status/${tenant}`,{cache:'no-store',signal:AbortSignal.timeout(2500)})
     if(!response.ok)return true
     const state=await response.json()
-    if(state?.version!==1)return true
+    if(!state)return true
+    if(state.version === 1){/* supported protocol */}else return true
     if(!state?.guard_version)return true
     if(state?.enforcement_enabled!==true||!state?.expires_on)return true
     if(state?.available===false&&state?.status==='expired')return false

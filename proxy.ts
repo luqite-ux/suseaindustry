@@ -1,8 +1,9 @@
 import {NextRequest,NextResponse} from 'next/server'
-import {isServiceGuardExcludedPath,isWebsiteServiceAvailable} from '@/lib/service-expiry-guard'
+import {applyServiceExpiryGuard} from '@/lib/service-expiry-integration'
 export async function proxy(request:NextRequest){
   const path=request.nextUrl.pathname
-  if(!isServiceGuardExcludedPath(path)&&!await isWebsiteServiceAvailable())return NextResponse.rewrite(new URL('/service-expired',request.url))
+  const serviceExpiryResponse=await applyServiceExpiryGuard(request)
+  if(serviceExpiryResponse)return serviceExpiryResponse
   if(path.startsWith('/admin')&&!path.startsWith('/admin/login')&&!path.startsWith('/admin/logout')&&!request.cookies.get('hq_admin_session')?.value)return NextResponse.redirect(new URL('/admin/login',request.url))
   const headers=new Headers(request.headers)
   headers.delete('x-site-locale')
