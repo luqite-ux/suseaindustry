@@ -1,0 +1,3 @@
+import {getArticles,getProducts,getSettings} from '@/lib/content-db'
+export const revalidate=60
+export async function GET(){const settings=await getSettings();if(settings.extra_settings?.llms_txt?.enabled!==true)return new Response('Not found',{status:404});const [products,articles]=await Promise.all([getProducts('en'),getArticles('en')]);const body=[`# ${settings.site_title_i18n?.en||settings.display_name}`,'',settings.site_description_i18n?.en||'','',...products.map(p=>`- Product: ${p.name} — https://suseaindustry.com/products/${p.slug}`),...articles.map(a=>`- Article: ${a.title} — https://suseaindustry.com/news/${a.slug}`)].join('\n');return new Response(body,{headers:{'content-type':'text/plain; charset=utf-8'}})}

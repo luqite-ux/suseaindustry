@@ -1,0 +1,16 @@
+import type { Metadata } from 'next'
+import Image from 'next/image'
+import Link from 'next/link'
+import { notFound } from 'next/navigation'
+import { ChevronRight } from 'lucide-react'
+import { Reveal } from '@/components/reveal'
+import { QuoteCta } from '@/components/quote-cta'
+import { getProductBySlug } from '@/lib/content-db'
+export const revalidate=60
+export const dynamicParams=true
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const product=await getProductBySlug(slug,'en');if(!product)return{};return{title:product.name,description:product.summary,alternates:{canonical:`/products/${product.slug}`},openGraph:{title:product.name,description:product.summary,images:product.image?[product.image]:[]}}}
+export default async function ProductPage({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const product=await getProductBySlug(slug,'en');if(!product)notFound();return <>
+  <section className="border-b border-border bg-secondary/30 py-10"><div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"><nav className="flex items-center gap-1.5 text-sm text-muted-foreground"><Link href="/products">Products</Link><ChevronRight className="size-3.5"/><span className="text-foreground">{product.name}</span></nav></div></section>
+  <section className="py-14 sm:py-16"><div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"><div className="grid gap-10 lg:grid-cols-2 lg:items-center"><Reveal className="relative aspect-square overflow-hidden rounded-2xl bg-white"><Image src={product.image} alt={product.name} fill sizes="(min-width:1024px) 560px,100vw" className="object-contain p-5"/></Reveal><Reveal delay={90}><span className="text-sm font-medium text-primary">{product.category}</span><h1 className="mt-2 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">{product.name}</h1><p className="mt-4 text-base leading-relaxed text-muted-foreground">{product.overview||product.summary}</p><dl className="mt-7 grid gap-3 sm:grid-cols-2">{product.specs.map(([key,value])=><div key={key} className="rounded-xl border border-border bg-card p-4"><dt className="text-xs uppercase tracking-wide text-muted-foreground">{key}</dt><dd className="mt-1 font-semibold text-foreground">{value}</dd></div>)}</dl></Reveal></div>
+  <div className="mt-14"><Reveal><h2 className="text-2xl font-semibold text-foreground">Product gallery</h2></Reveal><div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{product.gallery.map((src,index)=><Reveal key={`${src}-${index}`} delay={Math.min((index%4)*70,210)}><div className="relative aspect-square overflow-hidden rounded-xl border border-border bg-white"><Image src={src} alt={`${product.name} source image ${index+1}`} fill sizes="(min-width:1024px) 280px,50vw" className="object-contain p-3"/></div></Reveal>)}</div></div></div></section><QuoteCta title="Request a product quotation" description="Share target colors, volume, packaging and application requirements."/>
+  </>}

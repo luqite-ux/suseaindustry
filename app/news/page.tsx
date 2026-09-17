@@ -1,0 +1,9 @@
+import type {Metadata} from 'next'
+import Link from 'next/link'
+import {Newspaper} from 'lucide-react'
+import {Reveal} from '@/components/reveal'
+import {QuoteCta} from '@/components/quote-cta'
+import {getArticles} from '@/lib/content-db'
+export const revalidate=60
+export const metadata:Metadata={title:'News',description:'Product, capability and company updates from Ningbo Shuzhihai New Materials.'}
+export default async function NewsPage(){const articles=await getArticles('en');return <><section className="border-b border-border bg-secondary/30 py-16 sm:py-20"><div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"><Reveal><span className="text-sm font-medium text-primary">News</span><h1 className="mt-2 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">Updates from Shuzhihai</h1></Reveal></div></section><section className="py-16 sm:py-20"><div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8"><Reveal>{articles.length===0?<div className="rounded-2xl border border-dashed border-border bg-secondary/20 py-16 text-center"><Newspaper className="mx-auto size-6 text-primary"/><h2 className="mt-3 font-semibold">No news posted yet</h2><p className="mt-2 text-sm text-muted-foreground">Published customer updates will appear here automatically.</p></div>:<div className="grid gap-5 md:grid-cols-3">{articles.map(article=><Link key={article.id} href={`/news/${article.slug}`} className="flex h-full flex-col rounded-2xl border border-border bg-card p-5"><time className="text-xs text-muted-foreground">{article.published_at?.slice(0,10)}</time><h2 className="mt-2 font-semibold">{article.title}</h2><p className="mt-2 line-clamp-3 flex-1 text-sm text-muted-foreground">{article.excerpt}</p><span className="mt-4 text-sm font-medium text-primary">Read article</span></Link>)}</div>}</Reveal></div></section><QuoteCta/></>}

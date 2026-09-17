@@ -1,0 +1,4 @@
+import type {Metadata} from 'next'
+import Link from 'next/link'
+export const metadata:Metadata={title:'Service temporarily unavailable',robots:{index:false,follow:false}}
+export default function ServiceExpiredPage(){return <main className="flex min-h-screen items-center justify-center bg-slate-50 px-6"><section className="max-w-xl rounded-2xl border bg-white p-8 text-center shadow-sm"><h1 className="text-3xl font-semibold text-slate-950">Website service temporarily unavailable</h1><p className="mt-4 leading-relaxed text-slate-600">The public website is currently unavailable. The administrator can review the service status from the management portal.</p><Link href="/admin/login" className="mt-7 inline-flex rounded-lg bg-blue-700 px-5 py-3 text-sm font-semibold text-white">Administrator sign in</Link></section></main>}

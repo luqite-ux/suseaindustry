@@ -1,0 +1,4 @@
+import type {MetadataRoute} from 'next'
+import {getArticles,getProducts} from '@/lib/content-db'
+const base='https://suseaindustry.com'
+export default async function sitemap():Promise<MetadataRoute.Sitemap>{const [products,articles]=await Promise.all([getProducts('en'),getArticles('en')]);const staticRoutes=['','/products','/capabilities','/applications','/about','/news','/contact'];return [...staticRoutes.map(path=>({url:`${base}${path}`,lastModified:new Date(),changeFrequency:'monthly' as const,priority:path===''?1:0.7})),...products.map(p=>({url:`${base}/products/${p.slug}`,lastModified:p.updatedAt?new Date(p.updatedAt):new Date(),changeFrequency:'weekly' as const,priority:0.8})),...articles.map(a=>({url:`${base}/news/${a.slug}`,lastModified:new Date(a.updated_at||a.published_at),changeFrequency:'monthly' as const,priority:0.6}))]}
