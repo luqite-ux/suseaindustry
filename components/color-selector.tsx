@@ -39,8 +39,8 @@ export function ColorSelector({
   const image = selected.photo
 
   return (
-    <div className={cn("grid gap-6 lg:grid-cols-[1fr_1.1fr] lg:gap-10", className)}>
-      <div className="relative order-1 aspect-square w-full overflow-hidden rounded-2xl bg-secondary/60 lg:order-2">
+    <div className={cn("grid min-w-0 gap-6 lg:grid-cols-[1fr_1.1fr] lg:gap-10", className)}>
+      <div className="relative order-1 aspect-square min-w-0 w-full overflow-hidden rounded-2xl bg-secondary/60 lg:order-2">
         {image ? (
           <FadeImage src={image} alt={`PLA Basic filament, ${selected.name} color`} />
         ) : (
@@ -61,7 +61,7 @@ export function ColorSelector({
         </span>
       </div>
 
-      <div className="order-2 lg:order-1">
+      <div className="min-w-0 order-2 lg:order-1">
         <p className="mb-3 text-sm font-medium text-muted-foreground">
           19 colors, one consistent PLA Basic formulation
         </p>
