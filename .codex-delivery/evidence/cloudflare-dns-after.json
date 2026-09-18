@@ -1,0 +1,49 @@
+[
+  {
+    "id": "d4cf8a65d1114dcdd5bef8852f424650",
+    "name": "suseaindustry.com",
+    "type": "A",
+    "content": "216.150.16.1",
+    "proxiable": true,
+    "proxied": false,
+    "ttl": 1,
+    "settings": {},
+    "meta": {},
+    "comment": null,
+    "tags": [],
+    "created_on": "2026-09-17T13:32:33.888257Z",
+    "modified_on": "2026-09-17T13:32:33.888257Z"
+  },
+  {
+    "id": "4014aa7b3b77d81a093873a63d682c5e",
+    "name": "suseaindustry.com",
+    "type": "A",
+    "content": "216.150.1.1",
+    "proxiable": true,
+    "proxied": false,
+    "ttl": 1,
+    "settings": {},
+    "meta": {},
+    "comment": null,
+    "tags": [],
+    "created_on": "2026-09-17T13:32:33.574095Z",
+    "modified_on": "2026-09-17T13:32:33.574095Z"
+  },
+  {
+    "id": "56f2ed5a0bdd8c0a168588c71d399e53",
+    "name": "www.suseaindustry.com",
+    "type": "CNAME",
+    "content": "9768e9ef343539f8.vercel-dns-016.com",
+    "proxiable": true,
+    "proxied": false,
+    "ttl": 1,
+    "settings": {
+      "flatten_cname": false
+    },
+    "meta": {},
+    "comment": null,
+    "tags": [],
+    "created_on": "2026-09-17T13:32:34.203131Z",
+    "modified_on": "2026-09-17T13:32:34.203131Z"
+  }
+]
