@@ -16,11 +16,15 @@ const applications: Array<{ title: string; description: string; image?: string; 
     title: "Distributors & resellers",
     description:
       "Build a multi-color PLA Basic catalog from a single supply relationship. Consistent material specification across all 19 colors simplifies inventory and quality expectations.",
+    image: "/images/pla-basic-purple.png",
+    imageAlt: "Purple PLA Basic filament retail presentation for distributor catalogs",
   },
   {
     title: "Cross-border e-commerce sellers",
     description:
       "OEM labeling and custom packaging support private-label filament listings without the buyer needing their own production line.",
+    image: "/images/pla-basic-metallic.png",
+    imageAlt: "Metallic PLA Basic filament retail presentation for cross-border listings",
   },
   {
     title: "Makers & hobbyists",
@@ -40,6 +44,8 @@ const applications: Array<{ title: string; description: string; image?: string; 
     title: "Industrial prototyping",
     description:
       "Repeatable extrusion tolerances support functional and visual prototype runs where dimensional accuracy affects fit and finish.",
+    image: "/images/factory-line-closeup.jpg",
+    imageAlt: "Close-up of Shuzhihai filament extrusion and spooling equipment",
   },
 ]
 
@@ -77,7 +83,7 @@ export default function ApplicationsPage() {
                 </div>
                 <div className={`relative aspect-[4/3] overflow-hidden rounded-xl bg-secondary/50 ${i % 2 === 1 ? "lg:order-1" : ""}`}>
                   {app.image ? (
-                    <Image src={app.image} alt={app.imageAlt ?? app.title} fill sizes="(min-width: 1024px) 480px, 90vw" className="object-contain p-6" />
+                    <Image src={app.image} alt={app.imageAlt ?? app.title} fill sizes="(min-width: 1024px) 480px, 90vw" className="object-cover" />
                   ) : (
                     <div className="h-full w-full bg-gradient-to-br from-primary/15 via-accent/15 to-secondary" aria-hidden />
                   )}

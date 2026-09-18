@@ -7,24 +7,32 @@ const applications = [
   {
     title: "Distributors & resellers",
     description: "Multi-color PLA Basic stock built from one supply relationship instead of nineteen.",
+    image: "/images/pla-basic-purple.png",
+    imageAlt: "Purple PLA Basic filament retail presentation for distributor catalogs",
   },
   {
     title: "Cross-border sellers",
     description: "OEM labeling and packaging support for private-label filament listings.",
+    image: "/images/pla-basic-metallic.png",
+    imageAlt: "Metallic PLA Basic filament retail presentation for cross-border listings",
   },
   {
     title: "Makers & hobbyists",
     description: "Clean, pure colors with dimensionally accurate extrusion for everyday desktop printing.",
     image: "/images/print-sample-unicorn.jpg",
+    imageAlt: "Purple PLA Basic 3D-printed unicorn figurine sample",
   },
   {
     title: "Education",
     description: "Consistent, easy-to-print material suited to classroom and workshop print queues.",
     image: "/images/print-sample-hellokitty.jpg",
+    imageAlt: "Multi-color PLA Basic 3D-printed character figurine sample",
   },
   {
     title: "Industrial prototyping",
     description: "Repeatable extrusion tolerances for functional and visual prototype runs.",
+    image: "/images/factory-line-closeup.jpg",
+    imageAlt: "Close-up of Shuzhihai filament extrusion and spooling equipment",
   },
 ]
 
@@ -52,7 +60,7 @@ export function ApplicationsPreview() {
             <div key={app.title} className="flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
               {app.image ? (
                 <div className="relative aspect-[4/3] w-full bg-secondary/50">
-                  <Image src={app.image} alt={`3D-printed sample representative of ${app.title.toLowerCase()} use`} fill sizes="(min-width: 1024px) 360px, 90vw" className="object-contain p-4" />
+                  <Image src={app.image} alt={app.imageAlt} fill sizes="(min-width: 1024px) 360px, 90vw" className="object-cover" />
                 </div>
               ) : (
                 <div className="aspect-[4/3] w-full bg-gradient-to-br from-primary/15 via-accent/15 to-secondary" aria-hidden />
