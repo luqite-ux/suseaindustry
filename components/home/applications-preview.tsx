@@ -19,13 +19,13 @@ const applications = [
   {
     title: "Makers & hobbyists",
     description: "Clean, pure colors with dimensionally accurate extrusion for everyday desktop printing.",
-    image: "/images/print-sample-unicorn.jpg",
+    image: "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/suseaindustry/products/ai-watermark-cleaned/6c36e88e00b8049e-3.jpg",
     imageAlt: "Purple PLA Basic 3D-printed unicorn figurine sample",
   },
   {
     title: "Education",
     description: "Consistent, easy-to-print material suited to classroom and workshop print queues.",
-    image: "/images/print-sample-hellokitty.jpg",
+    image: "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/suseaindustry/products/ai-watermark-cleaned/3d0d7cab9fc5daed-18.jpg",
     imageAlt: "Multi-color PLA Basic 3D-printed character figurine sample",
   },
   {

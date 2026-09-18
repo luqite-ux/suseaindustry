@@ -17,6 +17,8 @@ Two public site assets were byte-for-byte copies of affected originals and were 
 - `public/images/print-sample-unicorn.jpg` from source `3.jpg`
 - `public/images/print-sample-hellokitty.jpg` from source `18.jpg`
 
+The home and applications pages reference the same immutable cleaned R2 objects used by the product gallery, preventing stale local-image delivery while retaining the cleaned local files as deployment fallbacks.
+
 A SHA-256 scan of `public/` confirmed that no public file retains the hash of any of the 22 original affected photographs.
 
 ## AI editing method
@@ -36,5 +38,5 @@ To protect product truthfulness, the final deliverable uses the original photogr
 ## Verification
 
 - TypeScript: `pnpm exec tsc --noEmit` — PASS
-- Masonry/lightbox tests: `node --test tests/masonry-gallery.test.mjs` — 3/3 PASS
+- Application media plus masonry/lightbox tests: `node --test tests/application-media.test.mjs tests/masonry-gallery.test.mjs` — 4/4 PASS
 - Production build: `pnpm build` — PASS
