@@ -70,8 +70,8 @@ export function ProductMasonryGallery({ images, productName, fallbackImage }: Pr
     return () => {
       document.removeEventListener("keydown", onKeyDown)
       Object.assign(body.style, previous)
+      triggerRefs.current[session.triggerIndex]?.focus({ preventScroll: true })
       window.scrollTo(0, scrollY)
-      triggerRefs.current[session.triggerIndex]?.focus()
     }
   }, [isOpen, images.length])
 
