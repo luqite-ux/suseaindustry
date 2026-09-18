@@ -6,6 +6,8 @@ import { QuoteCta } from "@/components/quote-cta"
 export const metadata: Metadata = {
   title: "About",
   description: "About Ningbo Shuzhihai New Materials Co., Ltd., a PLA Basic 3D printer filament manufacturer.",
+  alternates: { canonical: "/about" },
+  openGraph: { url: "/about", images: [{ url: "/images/factory-line-wide.jpg", alt: "Ningbo Shuzhihai New Materials production line" }] },
 }
 
 const values = [

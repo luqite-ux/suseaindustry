@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Capabilities",
   description:
     "Color masterbatch modification, OEM/ODM manufacturing, and custom color and packaging capabilities from Ningbo Shuzhihai New Materials.",
+  alternates: { canonical: "/capabilities" },
+  openGraph: { url: "/capabilities", images: [{ url: "/images/factory-line-wide.jpg", alt: "Shuzhihai filament production capabilities" }] },
 }
 
 const capabilities = [

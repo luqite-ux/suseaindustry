@@ -6,6 +6,8 @@ import { Reveal } from "@/components/reveal"
 export const metadata: Metadata = {
   title: "Contact",
   description: "Contact Ningbo Shuzhihai New Materials for PLA Basic filament, color matching, OEM/ODM and packaging inquiries.",
+  alternates: { canonical: "/contact" },
+  openGraph: { url: "/contact", images: [{ url: "/images/factory-line-wide.jpg", alt: "Shuzhihai filament production line" }] },
 }
 
 export default function ContactPage() {

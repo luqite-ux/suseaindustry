@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   title: "Applications",
   description:
     "PLA Basic filament applications for distributors, cross-border sellers, makers, education, and industrial prototyping buyers.",
+  alternates: { canonical: "/applications" },
+  openGraph: { url: "/applications", images: [{ url: "/images/print-sample-unicorn.jpg", alt: "3D printed sample made with PLA Basic filament" }] },
 }
 
 const applications: Array<{ title: string; description: string; image?: string; imageAlt?: string }> = [
