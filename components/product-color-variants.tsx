@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Image from "next/image"
 import { Check } from "lucide-react"
 import { cn } from "@/lib/utils"
@@ -31,6 +31,7 @@ export function ProductColorVariants({
 }: ProductColorVariantsProps) {
   const [selectedSlug, setSelectedSlug] = useState(variants[0]?.slug ?? "")
   const [desktopView, setDesktopView] = useState<"spool" | "sample">("spool")
+  const sampleRef = useRef<HTMLElement>(null)
   const selected = selectColorVariant(variants, selectedSlug)
 
   if (!selected) return null
@@ -95,6 +96,9 @@ export function ProductColorVariants({
                     onClick={() => {
                       setSelectedSlug(variant.slug)
                       setDesktopView("sample")
+                      if (window.matchMedia("(max-width: 1023px)").matches) {
+                        requestAnimationFrame(() => sampleRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }))
+                      }
                     }}
                     className={cn(
                       "group flex min-w-0 flex-col items-center gap-1.5 rounded-xl border bg-card px-1 py-2 text-center transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
@@ -120,7 +124,8 @@ export function ProductColorVariants({
           </div>
 
           <section
-            className="mt-6 lg:hidden"
+            ref={sampleRef}
+            className="mt-6 scroll-mt-20 lg:hidden"
             aria-labelledby="printed-sample-heading"
           >
             <div className="mb-3">
