@@ -66,9 +66,7 @@ export function ProductColorVariants({ productName, category, overview, specs, v
                 aria-label={`Show ${variant.name}`}
                 onClick={() => {
                   setSelectedSlug(variant.slug)
-                  if (window.matchMedia("(max-width: 1023px)").matches) {
-                    requestAnimationFrame(() => sampleRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }))
-                  }
+                  requestAnimationFrame(() => sampleRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }))
                 }}
                 className={cn("group flex min-w-0 flex-col items-center gap-1.5 rounded-xl border bg-card px-1 py-2 text-center transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring", active ? "border-primary bg-primary/5" : "border-border hover:border-primary/40")}
               >
