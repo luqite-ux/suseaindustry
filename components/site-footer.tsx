@@ -1,8 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
 import { navLinks } from "@/lib/site-config"
+import { getSite } from "@/lib/content-db"
 
-export function SiteFooter() {
+export async function SiteFooter() {
+  const site = await getSite("en")
+
   return (
     <footer className="border-t border-border bg-secondary/40">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
@@ -45,6 +48,11 @@ export function SiteFooter() {
             <h3 className="text-sm font-semibold text-foreground">Contact</h3>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>Ningbo, Zhejiang, China</li>
+              <li>
+                <a href={`mailto:${site.email}`} className="break-all transition-colors hover:text-foreground">
+                  {site.email}
+                </a>
+              </li>
               <li>
                 <Link href="/contact" className="transition-colors hover:text-foreground">
                   Submit an inquiry

@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Factory, Mail, MapPin } from "lucide-react"
 import { ContactForm } from "@/components/contact-form"
 import { Reveal } from "@/components/reveal"
+import { getSite } from "@/lib/content-db"
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -10,7 +11,9 @@ export const metadata: Metadata = {
   openGraph: { url: "/contact", images: [{ url: "/images/factory-line-wide.jpg", alt: "Shuzhihai filament production line" }] },
 }
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const site = await getSite("en")
+
   return (
     <>
       <section className="border-b border-border bg-secondary/30 py-16 sm:py-20">
@@ -27,7 +30,7 @@ export default function ContactPage() {
           <Reveal className="space-y-6">
             <div className="flex gap-3"><Factory className="mt-0.5 size-5 text-primary" /><div><h2 className="font-semibold text-foreground">Manufacturer-direct discussion</h2><p className="mt-1 text-sm leading-relaxed text-muted-foreground">PLA Basic filament, color masterbatch modification, OEM/ODM and custom packaging.</p></div></div>
             <div className="flex gap-3"><MapPin className="mt-0.5 size-5 text-primary" /><div><h2 className="font-semibold text-foreground">Ningbo, Zhejiang, China</h2><p className="mt-1 text-sm leading-relaxed text-muted-foreground">Production and buyer coordination are handled from Ningbo.</p></div></div>
-            <div className="flex gap-3"><Mail className="mt-0.5 size-5 text-primary" /><div><h2 className="font-semibold text-foreground">Written quotation workflow</h2><p className="mt-1 text-sm leading-relaxed text-muted-foreground">Product scope, lead time and commercial terms are confirmed per inquiry.</p></div></div>
+            <div className="flex gap-3"><Mail className="mt-0.5 size-5 text-primary" /><div><h2 className="font-semibold text-foreground">Email our export team</h2><a href={`mailto:${site.email}`} className="mt-1 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline">{site.email}</a><p className="mt-1 text-sm leading-relaxed text-muted-foreground">Product scope, lead time and commercial terms are confirmed per inquiry.</p></div></div>
           </Reveal>
           <Reveal delay={100}><ContactForm /></Reveal>
         </div>
