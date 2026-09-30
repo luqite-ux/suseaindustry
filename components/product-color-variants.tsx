@@ -4,6 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { Check } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { selectColorVariant } from "@/lib/color-variant-preview.mjs"
 
 export type ProductColorVariant = {
   slug: string
@@ -29,14 +30,14 @@ export function ProductColorVariants({
   variants,
 }: ProductColorVariantsProps) {
   const [selectedSlug, setSelectedSlug] = useState(variants[0]?.slug ?? "")
-  const selected = variants.find((variant) => variant.slug === selectedSlug) ?? variants[0]
+  const selected = selectColorVariant(variants, selectedSlug)
 
   if (!selected) return null
 
   return (
     <div>
-      <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
-        <div className="relative aspect-square overflow-hidden rounded-2xl border border-border bg-white">
+      <div className="grid gap-8 lg:grid-cols-2 lg:items-start lg:gap-10">
+        <div className="relative aspect-square overflow-hidden rounded-2xl border border-border bg-white lg:col-start-1 lg:row-span-2 lg:row-start-1">
           <Image
             key={selected.productImage}
             src={selected.productImage}
@@ -51,7 +52,7 @@ export function ProductColorVariants({
           </span>
         </div>
 
-        <div>
+        <div className="lg:col-start-2 lg:row-start-1">
           <span className="text-sm font-medium text-primary">{category}</span>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">{productName}</h1>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">{overview}</p>
@@ -98,40 +99,39 @@ export function ProductColorVariants({
             </div>
           </div>
 
-          <dl className="mt-7 grid gap-3 sm:grid-cols-2">
+        </div>
+
+        <section
+          className="grid overflow-hidden rounded-2xl border border-border bg-secondary/25 sm:grid-cols-[0.72fr_1.28fr] sm:items-center lg:col-span-2 lg:col-start-1 lg:row-start-3"
+          aria-labelledby="printed-sample-heading"
+        >
+          <div className="p-6 sm:p-8">
+            <span className="text-sm font-medium text-primary">Printed sample</span>
+            <h2 id="printed-sample-heading" className="mt-2 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl" aria-live="polite">
+              {selected.name} print sample
+            </h2>
+          </div>
+          <div className="relative aspect-[4/3] min-h-56 bg-white sm:aspect-[16/7]">
+            <Image
+              key={selected.sampleImage}
+              src={selected.sampleImage}
+              alt={`${selected.name} PLA Basic printed horse sample`}
+              fill
+              sizes="(min-width:1024px) 760px, 100vw"
+              className="object-contain p-4 sm:p-5"
+            />
+          </div>
+        </section>
+
+        <dl className="grid gap-3 sm:grid-cols-2 lg:col-start-2 lg:row-start-2">
             {specs.map(([key, value]) => (
               <div key={key} className="rounded-xl border border-border bg-card p-4">
                 <dt className="text-xs uppercase tracking-wide text-muted-foreground">{key}</dt>
                 <dd className="mt-1 font-semibold text-foreground">{value}</dd>
               </div>
             ))}
-          </dl>
-        </div>
+        </dl>
       </div>
-
-      <section className="mt-14 border-t border-border pt-10" aria-labelledby="printed-sample-heading">
-        <div className="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-center">
-          <div>
-            <span className="text-sm font-medium text-primary">Printed color sample</span>
-            <h2 id="printed-sample-heading" className="mt-2 text-3xl font-semibold tracking-tight text-foreground">
-              {selected.name} in a finished print
-            </h2>
-            <p className="mt-3 max-w-md text-base leading-relaxed text-muted-foreground">
-              The sample below corresponds to the selected filament color, so the spool and printed result stay paired.
-            </p>
-          </div>
-          <div className="relative aspect-square overflow-hidden rounded-2xl border border-border bg-white sm:aspect-[4/3]">
-            <Image
-              key={selected.sampleImage}
-              src={selected.sampleImage}
-              alt={`${selected.name} PLA Basic printed horse sample`}
-              fill
-              sizes="(min-width:1024px) 700px, 100vw"
-              className="object-contain p-4 sm:p-6"
-            />
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
