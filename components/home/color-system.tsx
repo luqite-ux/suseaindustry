@@ -6,9 +6,9 @@ import type {FilamentColor} from "@/lib/colors"
 export async function ColorSystem() {
   const product=(await getProducts('en'))[0]
   if(!product)return null
-  const names=Array.isArray(product.extra.colors)?product.extra.colors:[]
-  const swatches=['#8B7FD1','#F2F0EC','#1C1C1C','#8C7A4B','#C23B3B','#4FA8D8','#EFC53B','#3E8E5A','#2C5FA8','#EDEDE8','#E07A2C','#6B4A34','#8C8C8C','#E8C6A6','#B23E77','#E38FA8','#2E8B57','#667A8C','#C6C7C9']
-  const filamentColors:FilamentColor[]=names.map((name:string,index:number)=>({slug:name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),name,swatch:swatches[index]||'#7c8aa5',photo:product.gallery[index]}))
+  const variants=Array.isArray(product.extra.color_variants)?product.extra.color_variants:[]
+  const filamentColors:FilamentColor[]=variants.map((variant:any)=>({slug:String(variant.slug||''),name:String(variant.name||''),swatch:String(variant.swatch||'#7c8aa5'),photo:String(variant.product_image||''),sample:String(variant.sample_image||'')})).filter((color:FilamentColor)=>color.slug&&color.name&&color.photo)
+  if(filamentColors.length!==19)return null
   return (
     <section className="border-t border-border bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
