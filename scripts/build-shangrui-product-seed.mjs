@@ -73,8 +73,26 @@ function englishSpecs(sourceSpecs) {
   const result = {}
   let fallbackIndex = 0
   for (const [sourceKey, sourceValue] of Object.entries(sourceSpecs || {})) {
-    const matched = SPEC_KEY_MAP.find(([pattern]) => pattern.test(sourceKey))
-    const key = !/[\u3400-\u9fff]/u.test(sourceKey) ? sourceKey : (matched?.[1] || `Source specification ${++fallbackIndex}`)
+    // Translate only the label; retain the source's conditions and units verbatim.
+    // Do not silently correct questionable source units without customer evidence.
+    const translatedKey = sourceKey
+      .replace(/甲苯溶液粘度/g, 'Toluene solution viscosity')
+      .replace(/溶液粘度/g, 'Solution viscosity')
+      .replace(/组合苯乙烯含量|结合苯乙烯含量|苯乙烯含量/g, 'Styrene content')
+      .replace(/块内容比率/g, 'Block content ratio')
+      .replace(/Diblock 内容|双块内容/g, 'Diblock content')
+      .replace(/300% 拉伸强度|应力 300%/g, '300% tensile stress')
+      .replace(/断裂伸长率|伸长率/g, 'Elongation')
+      .replace(/抗拉强度|拉伸强度/g, 'Tensile strength')
+      .replace(/挥发物|波动率/g, 'Volatile matter')
+      .replace(/灰分含量/g, 'Ash content')
+      .replace(/永久变形/g, 'Permanent deformation')
+      .replace(/硬度/g, 'Hardness').replace(/邵氏A/g, 'Shore A')
+      .replace(/氢化/g, 'Hydrogenation').replace(/黄色指数/g, 'Yellow index')
+      .replace(/结构/g, 'Structure').replace(/外观/g, 'Appearance')
+      .replace(/千克/g, 'kg').replace(/克/g, 'g').replace(/分钟/g, 'min').replace(/兆帕/g, 'MPa')
+    if (/[\u3400-\u9fff]/u.test(translatedKey)) throw new Error(`Unmapped specification label: ${sourceKey}`)
+    const key = translatedKey
     const value = VALUE_MAP.get(String(sourceValue).trim()) || String(sourceValue)
     result[key] = /[\u3400-\u9fff]/u.test(value) ? `See source specification ${fallbackIndex || 1}` : value
   }

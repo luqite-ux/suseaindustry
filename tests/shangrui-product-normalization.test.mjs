@@ -61,3 +61,22 @@ test('normalization output cannot target or overwrite the existing PLA Basic slu
   assert.ok(result.products.every((product) => product.slug !== 'pla-basic'))
   assert.ok(result.products.every((product) => product.extra_data.source_product_key !== 'pla-basic-filament'))
 })
+
+test('translated specifications retain source test conditions, units and numeric values', () => {
+  const products = normalizeSourceProducts(source.products).products
+  const expected = [
+    ['57771531', 'MFR @ 200°C, 5Kg (g/10min)', '8.0~14.0'],
+    ['57771531', 'Toluene solution viscosity @ (25%, 25℃) (mPa·s)', '700~1200'],
+    ['57771556', 'MFR @ (5kg, 200℃) (g/10min)', '<=0.1'],
+    ['57771556', 'Solution viscosity @ (25%, 25℃) （mPa·s）', '>=50,000'],
+    ['57771563', 'Solution viscosity @ (15%, 25℃) (mPa·s)', '400'],
+    ['57771678', 'Toluene solution viscosity@ (10%, 25℃)(mPa·s)', '2000~3000'],
+  ]
+  for (const [id, key, value] of expected) {
+    assert.equal(products.find(p => p.extra_data.source_product_id === id).specs[key], value, `${id}: ${key}`)
+  }
+  for (const original of source.products) {
+    const translated = products.find(p => p.extra_data.source_product_id === original.sourceId)
+    assert.equal(Object.keys(translated.specs).length, Object.keys(original.specifications).length)
+  }
+})
