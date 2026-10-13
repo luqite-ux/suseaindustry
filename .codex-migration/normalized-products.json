@@ -1,0 +1,2732 @@
+{
+  "categories": [
+    {
+      "slug": "polymer-modification",
+      "name": "Polymer Modification",
+      "name_en": "Polymer Modification",
+      "name_i18n": {
+        "en": "Polymer Modification",
+        "zh": "聚合物改性"
+      },
+      "description": "Products listed in the customer's polymer modification source category.",
+      "description_en": "Products listed in the customer's polymer modification source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's polymer modification source category.",
+        "zh": "客户中文网站“聚合物改性”分类中的产品。"
+      },
+      "sort_order": 2,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "聚合物改性"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "waterproofing-materials",
+      "name": "Waterproofing Materials",
+      "name_en": "Waterproofing Materials",
+      "name_i18n": {
+        "en": "Waterproofing Materials",
+        "zh": "防水领域"
+      },
+      "description": "Products listed in the customer's waterproofing materials source category.",
+      "description_en": "Products listed in the customer's waterproofing materials source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's waterproofing materials source category.",
+        "zh": "客户中文网站“防水领域”分类中的产品。"
+      },
+      "sort_order": 3,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "防水领域"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "modified-fillers",
+      "name": "Modified Fillers",
+      "name_en": "Modified Fillers",
+      "name_i18n": {
+        "en": "Modified Fillers",
+        "zh": "改性填充"
+      },
+      "description": "Products listed in the customer's modified fillers source category.",
+      "description_en": "Products listed in the customer's modified fillers source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's modified fillers source category.",
+        "zh": "客户中文网站“改性填充”分类中的产品。"
+      },
+      "sort_order": 4,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "改性填充"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "adhesive-materials",
+      "name": "Adhesive Materials",
+      "name_en": "Adhesive Materials",
+      "name_i18n": {
+        "en": "Adhesive Materials",
+        "zh": "胶黏剂"
+      },
+      "description": "Products listed in the customer's adhesive materials source category.",
+      "description_en": "Products listed in the customer's adhesive materials source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's adhesive materials source category.",
+        "zh": "客户中文网站“胶黏剂”分类中的产品。"
+      },
+      "sort_order": 5,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "胶黏剂"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "tpe-compounding",
+      "name": "TPE Compounding",
+      "name_en": "TPE Compounding",
+      "name_i18n": {
+        "en": "TPE Compounding",
+        "zh": "TPE造粒"
+      },
+      "description": "Products listed in the customer's tpe compounding source category.",
+      "description_en": "Products listed in the customer's tpe compounding source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's tpe compounding source category.",
+        "zh": "客户中文网站“TPE造粒”分类中的产品。"
+      },
+      "sort_order": 6,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "TPE造粒"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "tpe",
+      "name": "TPE",
+      "name_en": "TPE",
+      "name_i18n": {
+        "en": "TPE",
+        "zh": "TPE"
+      },
+      "description": "Products listed in the customer's tpe source category.",
+      "description_en": "Products listed in the customer's tpe source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's tpe source category.",
+        "zh": "客户中文网站“TPE”分类中的产品。"
+      },
+      "sort_order": 7,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "TPE"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "eva",
+      "name": "EVA",
+      "name_en": "EVA",
+      "name_i18n": {
+        "en": "EVA",
+        "zh": "EVA"
+      },
+      "description": "Products listed in the customer's eva source category.",
+      "description_en": "Products listed in the customer's eva source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's eva source category.",
+        "zh": "客户中文网站“EVA”分类中的产品。"
+      },
+      "sort_order": 8,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "EVA"
+      },
+      "parent_id": null
+    },
+    {
+      "slug": "masterbatch",
+      "name": "Masterbatch",
+      "name_en": "Masterbatch",
+      "name_i18n": {
+        "en": "Masterbatch",
+        "zh": "色母粒"
+      },
+      "description": "Products listed in the customer's masterbatch source category.",
+      "description_en": "Products listed in the customer's masterbatch source category.",
+      "description_i18n": {
+        "en": "Products listed in the customer's masterbatch source category.",
+        "zh": "客户中文网站“色母粒”分类中的产品。"
+      },
+      "sort_order": 9,
+      "is_active": true,
+      "extra_data": {
+        "source_site": "www.shangrui-chemical.com",
+        "source_category": "色母粒"
+      },
+      "parent_id": null
+    }
+  ],
+  "products": [
+    {
+      "name": "SEBS YH-502T",
+      "name_en": "SEBS YH-502T",
+      "name_i18n": {
+        "en": "SEBS YH-502T",
+        "zh": "SEBS YH-502T"
+      },
+      "description": "SEBS YH-502T is a medium-molecular-weight hydrogenated SBS polymer supplied as white powder or granules. The source lists flexible processing, transparency and use in plastic modification, soft TPE compounds, soft toys, hot-melt adhesives, glass sealants and cushioning materials.",
+      "description_en": "SEBS YH-502T is a medium-molecular-weight hydrogenated SBS polymer supplied as white powder or granules. The source lists flexible processing, transparency and use in plastic modification, soft TPE compounds, soft toys, hot-melt adhesives, glass sealants and cushioning materials.",
+      "description_i18n": {
+        "en": "SEBS YH-502T is a medium-molecular-weight hydrogenated SBS polymer supplied as white powder or granules. The source lists flexible processing, transparency and use in plastic modification, soft TPE compounds, soft toys, hot-melt adhesives, glass sealants and cushioning materials.",
+        "zh": "应用： 塑料改性。.. 制造商： 中国石化 包装： 13kg/袋 备选方案： 卡尔顿1650 SEBS YH-502T SEBS YH-504T是一种聚合物，是通过选择和氢化特定结构的SBS获得的，呈白色粉末或颗粒形式，具有机械性能好、耐老化性好、表面纹理优越、无毒、环保等特点。"
+      },
+      "overview": "SEBS YH-502T is a medium-molecular-weight hydrogenated SBS polymer supplied as white powder or granules. The source lists flexible processing, transparency and use in plastic modification, soft TPE compounds, soft toys, hot-melt adhesives, glass sealants and cushioning materials.",
+      "overview_en": "SEBS YH-502T is a medium-molecular-weight hydrogenated SBS polymer supplied as white powder or granules. The source lists flexible processing, transparency and use in plastic modification, soft TPE compounds, soft toys, hot-melt adhesives, glass sealants and cushioning materials.",
+      "overview_i18n": {
+        "en": "SEBS YH-502T is a medium-molecular-weight hydrogenated SBS polymer supplied as white powder or granules. The source lists flexible processing, transparency and use in plastic modification, soft TPE compounds, soft toys, hot-melt adhesives, glass sealants and cushioning materials.",
+        "zh": "应用： 塑料改性。.. 制造商： 中国石化 包装： 13kg/袋 备选方案： 卡尔顿1650 SEBS YH-502T SEBS YH-504T是一种聚合物，是通过选择和氢化特定结构的SBS获得的，呈白色粉末或颗粒形式，具有机械性能好、耐老化性好、表面纹理优越、无毒、环保等特点。"
+      },
+      "slug": "sebs-yh-502t-57770104",
+      "model": "SEBS YH-502T",
+      "category_slug": "polymer-modification",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271591_1748330974.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Structure": "Linear",
+        "Block Content Ratio(%)": "31/69",
+        "Volatile Matter(%)": "<=1.0",
+        "300% Stretching Strength(Mpa)": ">=3.0",
+        "Tensile Strength(Mpa)(%)": ">=20.0",
+        "Elongation(%)": ">=450",
+        "Permanent Deformation(ShoreA)": "<=40",
+        "Hardness(%)": ">=70",
+        "Hydrogenation": ">=97",
+        "Yellow Index": "<=4.0",
+        "Source specification 1": "300~500",
+        "Appearance": "White powder"
+      },
+      "sort_order": 2,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271591_1748330974.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271594_1748330984.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271595_1748330984.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271593_1748330984.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271596_1748330984.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271591_1748330974.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271594_1748330984.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271595_1748330984.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271593_1748330984.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10136/20271596_1748330984.jpg"
+        ],
+        "source_facts": {},
+        "source_specifications": {
+          "Structure": "Linear",
+          "Block Content Ratio(%)": "31/69",
+          "Volatile Matter(%)": "<=1.0",
+          "300% Stretching Strength(Mpa)": ">=3.0",
+          "Tensile Strength(Mpa)(%)": ">=20.0",
+          "Elongation(%)": ">=450",
+          "Permanent Deformation(ShoreA)": "<=40",
+          "Hardness(%)": ">=70",
+          "Hydrogenation": ">=97",
+          "Yellow Index": "<=4.0",
+          "Toluene Solution Viscosity@ (10%, 25℃)(mPa·s)": "300~500",
+          "Appearance": "White powder"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57770104.html",
+        "source_product_id": "57770104",
+        "source_product_key": "shangrui-57770104",
+        "source_category": "聚合物改性",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SIS YH-1105",
+      "name_en": "SIS YH-1105",
+      "name_i18n": {
+        "en": "SIS YH-1105",
+        "zh": "SIS YH-1105"
+      },
+      "description": "SIS YH-1105 is a linear SIS triblock copolymer with medium molecular weight, low styrene content and low modulus. The source lists thermoplastic processing, elasticity, melt flow and compatibility with tackifying resins for tapes, labels and plastic modification.",
+      "description_en": "SIS YH-1105 is a linear SIS triblock copolymer with medium molecular weight, low styrene content and low modulus. The source lists thermoplastic processing, elasticity, melt flow and compatibility with tackifying resins for tapes, labels and plastic modification.",
+      "description_i18n": {
+        "en": "SIS YH-1105 is a linear SIS triblock copolymer with medium molecular weight, low styrene content and low modulus. The source lists thermoplastic processing, elasticity, melt flow and compatibility with tackifying resins for tapes, labels and plastic modification.",
+        "zh": "应用： 胶带。.. 制造商： 中国石化 包装： 20kg/袋 备选方案： 克雷顿1114 SIS YH-1105 热塑性弹性体SIS（苯乙烯-异戊二烯-苯乙烯嵌段共聚物）橡胶聚合物1105，它是一种线性、纯SIS三嵌段共聚物，分子量中等，苯乙烯含量低，模量低。具有热塑性好、弹性高、熔体流动性好、与增粘树脂相容性好、安全无毒等特点。它具有出色的附着力，专为胶带、标签和塑料改性领域而设计。"
+      },
+      "overview": "SIS YH-1105 is a linear SIS triblock copolymer with medium molecular weight, low styrene content and low modulus. The source lists thermoplastic processing, elasticity, melt flow and compatibility with tackifying resins for tapes, labels and plastic modification.",
+      "overview_en": "SIS YH-1105 is a linear SIS triblock copolymer with medium molecular weight, low styrene content and low modulus. The source lists thermoplastic processing, elasticity, melt flow and compatibility with tackifying resins for tapes, labels and plastic modification.",
+      "overview_i18n": {
+        "en": "SIS YH-1105 is a linear SIS triblock copolymer with medium molecular weight, low styrene content and low modulus. The source lists thermoplastic processing, elasticity, melt flow and compatibility with tackifying resins for tapes, labels and plastic modification.",
+        "zh": "应用： 胶带。.. 制造商： 中国石化 包装： 20kg/袋 备选方案： 克雷顿1114 SIS YH-1105 热塑性弹性体SIS（苯乙烯-异戊二烯-苯乙烯嵌段共聚物）橡胶聚合物1105，它是一种线性、纯SIS三嵌段共聚物，分子量中等，苯乙烯含量低，模量低。具有热塑性好、弹性高、熔体流动性好、与增粘树脂相容性好、安全无毒等特点。它具有出色的附着力，专为胶带、标签和塑料改性领域而设计。"
+      },
+      "slug": "sis-yh-1105-57770166",
+      "model": "SIS YH-1105",
+      "category_slug": "polymer-modification",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272063_1748332026.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Structure": "Linear",
+        "Source specification 1": "16/84",
+        "Source specification 2": "<=0.70",
+        "Source specification 3": "<=0.20",
+        "Source specification 4": "16.0+/-2.0",
+        "Source specification 5": "16.5+/-2.0",
+        "MFR": "8.0~14.0",
+        "Tensile Strength (Mpa)": ">=10.0",
+        "Source specification 6": ">=1050",
+        "Yellow Index": "<=6.0",
+        "Source specification 7": "700~1200",
+        "Appearance": "White Particle"
+      },
+      "sort_order": 3,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272063_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272062_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272061_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272060_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272064_1748332026.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272063_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272062_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272061_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272060_1748332026.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10137/20272064_1748332026.jpg"
+        ],
+        "source_facts": {},
+        "source_specifications": {
+          "Structure": "Linear",
+          "Block Content Ratio (S/I)（%）": "16/84",
+          "Volatile Matter （%）": "<=0.70",
+          "Ash Content（%）": "<=0.20",
+          "Combinated Styrene Content （%）": "16.0+/-2.0",
+          "Diblock Content（%）": "16.5+/-2.0",
+          "MFR @ 200°C, 5Kg（g/10min）": "8.0~14.0",
+          "Tensile Strength (Mpa)": ">=10.0",
+          "Elongation（%）": ">=1050",
+          "Yellow Index": "<=6.0",
+          "Toluene Solution Viscosity @ (25%, 25℃) (mPa·s)": "700~1200",
+          "Appearance": "White Particle"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57770166.html",
+        "source_product_id": "57770166",
+        "source_product_key": "shangrui-57770166",
+        "source_category": "聚合物改性",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SIS YH-1106",
+      "name_en": "SIS YH-1106",
+      "name_i18n": {
+        "en": "SIS YH-1106",
+        "zh": "SIS YH-1106"
+      },
+      "description": "SIS YH-1106 is a blend of linear SIS triblock and SI diblock copolymers with medium molecular weight and low diblock content. The source lists melt processing for tape and label applications.",
+      "description_en": "SIS YH-1106 is a blend of linear SIS triblock and SI diblock copolymers with medium molecular weight and low diblock content. The source lists melt processing for tape and label applications.",
+      "description_i18n": {
+        "en": "SIS YH-1106 is a blend of linear SIS triblock and SI diblock copolymers with medium molecular weight and low diblock content. The source lists melt processing for tape and label applications.",
+        "zh": "描述 热塑性弹性体 SIS （苯乙烯-异戊二烯-苯乙烯嵌段共聚物）橡胶聚合物1106，它是线性三嵌段共聚物和二嵌段共聚物SIS/SI的混合物。它具有中等分子量和低二嵌段含量，具有良好的熔融加工性能。它可以用来生产胶带、标签。 规格"
+      },
+      "overview": "SIS YH-1106 is a blend of linear SIS triblock and SI diblock copolymers with medium molecular weight and low diblock content. The source lists melt processing for tape and label applications.",
+      "overview_en": "SIS YH-1106 is a blend of linear SIS triblock and SI diblock copolymers with medium molecular weight and low diblock content. The source lists melt processing for tape and label applications.",
+      "overview_i18n": {
+        "en": "SIS YH-1106 is a blend of linear SIS triblock and SI diblock copolymers with medium molecular weight and low diblock content. The source lists melt processing for tape and label applications.",
+        "zh": "描述 热塑性弹性体 SIS （苯乙烯-异戊二烯-苯乙烯嵌段共聚物）橡胶聚合物1106，它是线性三嵌段共聚物和二嵌段共聚物SIS/SI的混合物。它具有中等分子量和低二嵌段含量，具有良好的熔融加工性能。它可以用来生产胶带、标签。 规格"
+      },
+      "slug": "sis-yh-1106-57771531",
+      "model": "SIS YH-1106",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279821_1748396096.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Structure": "Linear",
+        "Block content ratio (%)": "16/84",
+        "Volatile matter (%)": "<=0.70",
+        "Ash content (%)": "<=0.20",
+        "Styrene content (%)": "16.0+/-2.0",
+        "Diblock content (%)": "16.5+/-2.0",
+        "MFR": "8.0~14.0",
+        "Tensile strength (MPa)": ">=10.0",
+        "Elongation at break (%)": ">=1050",
+        "Yellow index": "<=6.0",
+        "Toluene solution viscosity": "700~1200",
+        "Appearance": "White granules"
+      },
+      "sort_order": 4,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279821_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279818_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279820_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279819_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279822_1748396096.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279821_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279818_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279820_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279819_1748396096.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279822_1748396096.jpg"
+        ],
+        "source_facts": {
+          "应用": "胶带...",
+          "制造商": "中国石化",
+          "包装": "20千克/袋",
+          "替代": "克拉顿 1161"
+        },
+        "source_specifications": {
+          "结构": "线性",
+          "块内容比率（S/I）（%）": "16/84",
+          "挥发物 (%)": "<=0.70",
+          "灰分含量 (%)": "<=0.20",
+          "组合苯乙烯含量 (%)": "16.0+/-2.0",
+          "Diblock 内容 (%)": "16.5+/-2.0",
+          "MFR @ 200°C, 5Kg (克/10分钟)": "8.0~14.0",
+          "抗拉强度 (Mpa)": ">=10.0",
+          "伸长率 (g/10min)": ">=1050",
+          "黄色指数": "<=6.0",
+          "甲苯溶液粘度 @ (25%, 25℃) (mPa·s)": "700~1200",
+          "外观": "白色粒子"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57771531.html",
+        "source_product_id": "57771531",
+        "source_product_key": "shangrui-57771531",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SEPS YH-4010",
+      "name_en": "SEPS YH-4010",
+      "name_i18n": {
+        "en": "SEPS YH-4010",
+        "zh": "SEPS YH-4010"
+      },
+      "description": "SEPS YH-4010 is a linear, fully diblock copolymer. The source lists it as a gelling or thickening material for fiber-filling gels, white-oil cosmetic systems and moisture-retaining ointment formulations.",
+      "description_en": "SEPS YH-4010 is a linear, fully diblock copolymer. The source lists it as a gelling or thickening material for fiber-filling gels, white-oil cosmetic systems and moisture-retaining ointment formulations.",
+      "description_i18n": {
+        "en": "SEPS YH-4010 is a linear, fully diblock copolymer. The source lists it as a gelling or thickening material for fiber-filling gels, white-oil cosmetic systems and moisture-retaining ointment formulations.",
+        "zh": "描述 SEPS YH-4010 是线性、100%二嵌段共聚物，主要用于防水增稠纤维填充凝胶的凝胶剂、化妆品白油的增稠剂、化妆品保水软膏。 规格"
+      },
+      "overview": "SEPS YH-4010 is a linear, fully diblock copolymer. The source lists it as a gelling or thickening material for fiber-filling gels, white-oil cosmetic systems and moisture-retaining ointment formulations.",
+      "overview_en": "SEPS YH-4010 is a linear, fully diblock copolymer. The source lists it as a gelling or thickening material for fiber-filling gels, white-oil cosmetic systems and moisture-retaining ointment formulations.",
+      "overview_i18n": {
+        "en": "SEPS YH-4010 is a linear, fully diblock copolymer. The source lists it as a gelling or thickening material for fiber-filling gels, white-oil cosmetic systems and moisture-retaining ointment formulations.",
+        "zh": "描述 SEPS YH-4010 是线性、100%二嵌段共聚物，主要用于防水增稠纤维填充凝胶的凝胶剂、化妆品白油的增稠剂、化妆品保水软膏。 规格"
+      },
+      "slug": "seps-yh-4010-57771556",
+      "model": "SEPS YH-4010",
+      "category_slug": "modified-fillers",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279963_1748396531.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Structure": "Linear",
+        "Styrene content (%)": "37",
+        "Diblock content (%)": "100",
+        "Hardness (Shore A)": "80",
+        "Solution viscosity": ">=50,000",
+        "MFR": "<=0.1",
+        "Appearance": "White powder"
+      },
+      "sort_order": 5,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279963_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279961_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279960_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279962_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279964_1748396531.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279963_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279961_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279960_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279962_1748396531.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279964_1748396531.jpg"
+        ],
+        "source_facts": {
+          "应用": "纤维填充凝胶...",
+          "制造商": "中国石化",
+          "包装": "13千克/袋"
+        },
+        "source_specifications": {
+          "结构": "线性",
+          "结合苯乙烯含量 (%)": "37",
+          "双块内容 (%)": "100",
+          "硬度（邵氏A）": "80",
+          "溶液粘度 @ (25%, 25℃) （mPa·s）": ">=50,000",
+          "MFR @ (5千克, 200℃) (克/10分钟)": "<=0.1",
+          "外观": "白色粉末"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57771556.html",
+        "source_product_id": "57771556",
+        "source_product_key": "shangrui-57771556",
+        "source_category": "改性填充",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SEPS YH-4030",
+      "name_en": "SEPS YH-4030",
+      "name_i18n": {
+        "en": "SEPS YH-4030",
+        "zh": "SEPS YH-4030"
+      },
+      "description": "SEPS YH-4030 is described with rapid dissolution, thickening and shear-resistance properties. The source lists use in improving lubricant viscosity-temperature behavior, viscosity index, low-temperature performance and shear stability.",
+      "description_en": "SEPS YH-4030 is described with rapid dissolution, thickening and shear-resistance properties. The source lists use in improving lubricant viscosity-temperature behavior, viscosity index, low-temperature performance and shear stability.",
+      "description_i18n": {
+        "en": "SEPS YH-4030 is described with rapid dissolution, thickening and shear-resistance properties. The source lists use in improving lubricant viscosity-temperature behavior, viscosity index, low-temperature performance and shear stability.",
+        "zh": "描述 SEPS 4030具有快速溶解、增稠和抗剪切性能。YH-4030可以改善润滑油的粘度-温度性能，增加其粘度指数， 并使其具有强烈的增稠能力、良好的低温性能和良好的剪切稳定性。 规格"
+      },
+      "overview": "SEPS YH-4030 is described with rapid dissolution, thickening and shear-resistance properties. The source lists use in improving lubricant viscosity-temperature behavior, viscosity index, low-temperature performance and shear stability.",
+      "overview_en": "SEPS YH-4030 is described with rapid dissolution, thickening and shear-resistance properties. The source lists use in improving lubricant viscosity-temperature behavior, viscosity index, low-temperature performance and shear stability.",
+      "overview_i18n": {
+        "en": "SEPS YH-4030 is described with rapid dissolution, thickening and shear-resistance properties. The source lists use in improving lubricant viscosity-temperature behavior, viscosity index, low-temperature performance and shear stability.",
+        "zh": "描述 SEPS 4030具有快速溶解、增稠和抗剪切性能。YH-4030可以改善润滑油的粘度-温度性能，增加其粘度指数， 并使其具有强烈的增稠能力、良好的低温性能和良好的剪切稳定性。 规格"
+      },
+      "slug": "seps-yh-4030-57771561",
+      "model": "SEPS YH-4030",
+      "category_slug": "adhesive-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279983_1748396598.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Appearance": "White powder or fluffy granules",
+        "Structure": "Radial",
+        "Styrene content (%)": "5"
+      },
+      "sort_order": 6,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279983_1748396598.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279980_1748396597.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279982_1748396598.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279981_1748396597.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279984_1748396598.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279983_1748396598.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279980_1748396597.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279982_1748396598.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279981_1748396597.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10140/20279984_1748396598.jpg"
+        ],
+        "source_facts": {
+          "应用": "改良润滑油...",
+          "制造商": "中国石化",
+          "包装": "13千克/袋"
+        },
+        "source_specifications": {
+          "外观": "白色粉末或蓬松的颗粒",
+          "结构": "径向",
+          "苯乙烯含量 (%)": "5"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57771561.html",
+        "source_product_id": "57771561",
+        "source_product_key": "shangrui-57771561",
+        "source_category": "胶黏剂",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SEPS YH-4051",
+      "name_en": "SEPS YH-4051",
+      "name_i18n": {
+        "en": "SEPS YH-4051",
+        "zh": "SEPS YH-4051"
+      },
+      "description": "SEPS YH-4051 is a selectively hydrogenated styrene-butadiene and isoprene copolymer. The source lists medical products, soft rubber toys, glazing compounds, TPE compounding and halogen-free flame-retardant cable coating materials as applications.",
+      "description_en": "SEPS YH-4051 is a selectively hydrogenated styrene-butadiene and isoprene copolymer. The source lists medical products, soft rubber toys, glazing compounds, TPE compounding and halogen-free flame-retardant cable coating materials as applications.",
+      "description_i18n": {
+        "en": "SEPS YH-4051 is a selectively hydrogenated styrene-butadiene and isoprene copolymer. The source lists medical products, soft rubber toys, glazing compounds, TPE compounding and halogen-free flame-retardant cable coating materials as applications.",
+        "zh": "描述 SEPS 是由丁苯橡胶和异戊橡胶的共聚物经过选择性加氢制得的。与 SEBS 比较，SEPS 橡胶具有更快的油吸收速度、油吸收后较低的表面粘度、较高的硬度和拉伸强度、断裂时较小的永久变形以及良好的附着力，能够附着在各种极性和非极性材料上。 SEBS YH-4051 可用于医疗产品、软橡胶玩具、窗格、TPE造粒、无卤阻燃电缆涂层材料。 规格"
+      },
+      "overview": "SEPS YH-4051 is a selectively hydrogenated styrene-butadiene and isoprene copolymer. The source lists medical products, soft rubber toys, glazing compounds, TPE compounding and halogen-free flame-retardant cable coating materials as applications.",
+      "overview_en": "SEPS YH-4051 is a selectively hydrogenated styrene-butadiene and isoprene copolymer. The source lists medical products, soft rubber toys, glazing compounds, TPE compounding and halogen-free flame-retardant cable coating materials as applications.",
+      "overview_i18n": {
+        "en": "SEPS YH-4051 is a selectively hydrogenated styrene-butadiene and isoprene copolymer. The source lists medical products, soft rubber toys, glazing compounds, TPE compounding and halogen-free flame-retardant cable coating materials as applications.",
+        "zh": "描述 SEPS 是由丁苯橡胶和异戊橡胶的共聚物经过选择性加氢制得的。与 SEBS 比较，SEPS 橡胶具有更快的油吸收速度、油吸收后较低的表面粘度、较高的硬度和拉伸强度、断裂时较小的永久变形以及良好的附着力，能够附着在各种极性和非极性材料上。 SEBS YH-4051 可用于医疗产品、软橡胶玩具、窗格、TPE造粒、无卤阻燃电缆涂层材料。 规格"
+      },
+      "slug": "seps-yh-4051-57771563",
+      "model": "SEPS YH-4051",
+      "category_slug": "modified-fillers",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280012_1748396655.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Appearance": "White powder",
+        "Volatile matter (%)": "<=1.0",
+        "300% tensile stress (MPa)": ">=4.0",
+        "Tensile strength (MPa)": ">=20.0",
+        "Elongation at break (%)": ">=500",
+        "Hardness (Shore A)": "75~85",
+        "Solution viscosity": "400",
+        "MFR": "0.10~0.50",
+        "Permanent deformation (%)": "<=32",
+        "Yellow index": "<=5.0"
+      },
+      "sort_order": 7,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280012_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280008_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280009_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280010_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280011_1748396655.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280012_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280008_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280009_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280010_1748396655.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280011_1748396655.jpg"
+        ],
+        "source_facts": {
+          "应用": "果冻蜡烛 ...",
+          "制造商": "中国石化",
+          "包装": "13千克/袋",
+          "替代": "可乐丽 4033"
+        },
+        "source_specifications": {
+          "外观": "白色粉末",
+          "波动率 (%)": "<=1.0",
+          "应力 300% (兆帕)": ">=4.0",
+          "拉伸强度（兆帕）": ">=20.0",
+          "断裂伸长率 (%)": ">=500",
+          "硬度（邵氏A）": "75~85",
+          "溶液粘度 @ (15%, 25℃) (mPa·s)": "400",
+          "MFR @ (5千克, 200℃) (克/10分钟)": "0.10~0.50",
+          "永久变形 (%)": "<=32",
+          "黄色指数": "<=5.0"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57771563.html",
+        "source_product_id": "57771563",
+        "source_product_key": "shangrui-57771563",
+        "source_category": "改性填充",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SEBS YH-503T",
+      "name_en": "SEBS YH-503T",
+      "name_i18n": {
+        "en": "SEBS YH-503T",
+        "zh": "SEBS YH-503T"
+      },
+      "description": "SEBS YH-503T is a selectively hydrogenated SBS polymer supplied as white powder or granules. The source lists mechanical performance, aging resistance and surface texture for compounding applications.",
+      "description_en": "SEBS YH-503T is a selectively hydrogenated SBS polymer supplied as white powder or granules. The source lists mechanical performance, aging resistance and surface texture for compounding applications.",
+      "description_i18n": {
+        "en": "SEBS YH-503T is a selectively hydrogenated SBS polymer supplied as white powder or granules. The source lists mechanical performance, aging resistance and surface texture for compounding applications.",
+        "zh": "描述 SEBS YH-503T 是一种通过选择和氢化特定结构的 SBS 而获得的聚合物，呈白色粉末或颗粒状，具有良好的机械性能、良好的耐老化性、优越的表面纹理、无毒和环保的特点。 规格"
+      },
+      "overview": "SEBS YH-503T is a selectively hydrogenated SBS polymer supplied as white powder or granules. The source lists mechanical performance, aging resistance and surface texture for compounding applications.",
+      "overview_en": "SEBS YH-503T is a selectively hydrogenated SBS polymer supplied as white powder or granules. The source lists mechanical performance, aging resistance and surface texture for compounding applications.",
+      "overview_i18n": {
+        "en": "SEBS YH-503T is a selectively hydrogenated SBS polymer supplied as white powder or granules. The source lists mechanical performance, aging resistance and surface texture for compounding applications.",
+        "zh": "描述 SEBS YH-503T 是一种通过选择和氢化特定结构的 SBS 而获得的聚合物，呈白色粉末或颗粒状，具有良好的机械性能、良好的耐老化性、优越的表面纹理、无毒和环保的特点。 规格"
+      },
+      "slug": "sebs-yh-503t-57771678",
+      "model": "SEBS YH-503T",
+      "category_slug": "tpe-compounding",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280241_1748397415.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {
+        "Structure": "Linear",
+        "Block content ratio (%)": "33/67",
+        "Volatile matter (%)": "<=1.00",
+        "300% tensile stress (MPa)": ">=3.0",
+        "Tensile strength (MPa)": ">=16",
+        "Elongation at break (%)": ">=400",
+        "Permanent deformation (%)": "<=40",
+        "Hardness (Shore A)": ">=70",
+        "Hydrogenation (%)": ">=97",
+        "Yellow index": "<=4.0",
+        "Toluene solution viscosity": "2000~3000",
+        "Appearance": "White powder"
+      },
+      "sort_order": 8,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280241_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280237_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280239_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280238_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280240_1748397415.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280241_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280237_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280239_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280238_1748397415.jpg",
+          "https://aimg8.dlssyht.cn/u/2305336/product/10141/20280240_1748397415.jpg"
+        ],
+        "source_facts": {
+          "应用": "复利...",
+          "制造商": "中国石化",
+          "包装": "13千克/袋",
+          "替代": "克拉顿 1651，TSRC 6151"
+        },
+        "source_specifications": {
+          "结构": "线性",
+          "块内容比率(%)": "33/67",
+          "挥发物(%)": "<=1.00",
+          "300% 拉伸强度 (Mpa)": ">=3.0",
+          "抗拉强度（Mpa）": ">=16",
+          "伸长率(%)": ">=400",
+          "永久变形(%)": "<=40",
+          "硬度（邵氏A）": ">=70",
+          "氢化(%)": ">=97",
+          "黄色指数": "<=4.0",
+          "甲苯溶液粘度@ (10%, 25℃)(mPa·s)": "2000~3000",
+          "外观": "白色粉末"
+        },
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57771678.html",
+        "source_product_id": "57771678",
+        "source_product_key": "shangrui-57771678",
+        "source_category": "TPE造粒",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "LCR SEBS 7550 / 7551 / 7554",
+      "name_en": "LCR SEBS 7550 / 7551 / 7554",
+      "name_i18n": {
+        "en": "LCR SEBS 7550 / 7551 / 7554",
+        "zh": "LCR SEBS 7550/7551/7554"
+      },
+      "description": "LCR SEBS 7550 / 7551 / 7554 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "LCR SEBS 7550 / 7551 / 7554 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "LCR SEBS 7550 / 7551 / 7554 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SEBS 7550/7551/7554，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "LCR SEBS 7550 / 7551 / 7554 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "LCR SEBS 7550 / 7551 / 7554 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "LCR SEBS 7550 / 7551 / 7554 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SEBS 7550/7551/7554，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "lcr-sebs-7550-7551-7554-57790047",
+      "model": "LCR SEBS 7550 / 7551 / 7554",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338854_1748932280.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 9,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338854_1748932280.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338854_1748932280.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57790047.html",
+        "source_product_id": "57790047",
+        "source_product_key": "shangrui-57790047",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Zhongli SEBS 6551 / 6550",
+      "name_en": "Zhongli SEBS 6551 / 6550",
+      "name_i18n": {
+        "en": "Zhongli SEBS 6551 / 6550",
+        "zh": "众立 SEBS 6551/6550"
+      },
+      "description": "Zhongli SEBS 6551 / 6550 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Zhongli SEBS 6551 / 6550 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Zhongli SEBS 6551 / 6550 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "众立 SEBS 6551/6550，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Zhongli SEBS 6551 / 6550 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Zhongli SEBS 6551 / 6550 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Zhongli SEBS 6551 / 6550 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "众立 SEBS 6551/6550，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "zhongli-sebs-6551-6550-57790048",
+      "model": "Zhongli SEBS 6551 / 6550",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338855_1748932280.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 10,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338855_1748932280.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338855_1748932280.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57790048.html",
+        "source_product_id": "57790048",
+        "source_product_key": "shangrui-57790048",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SEBS BHS-1503T",
+      "name_en": "SEBS BHS-1503T",
+      "name_i18n": {
+        "en": "SEBS BHS-1503T",
+        "zh": "(SEBS ) BHS-1503T"
+      },
+      "description": "SEBS BHS-1503T is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SEBS BHS-1503T is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SEBS BHS-1503T is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "(SEBS ) BHS-1503T，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SEBS BHS-1503T is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SEBS BHS-1503T is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SEBS BHS-1503T is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "(SEBS ) BHS-1503T，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sebs-bhs-1503t-57790051",
+      "model": "SEBS BHS-1503T",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338858_1748932282.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 11,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338858_1748932282.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10170/20338858_1748932282.jpg"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57790051.html",
+        "source_product_id": "57790051",
+        "source_product_key": "shangrui-57790051",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SIS YH-1126",
+      "name_en": "SIS YH-1126",
+      "name_i18n": {
+        "en": "SIS YH-1126",
+        "zh": "SIS YH-1126"
+      },
+      "description": "SIS YH-1126 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SIS YH-1126 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SIS YH-1126 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS YH-1126，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SIS YH-1126 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SIS YH-1126 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SIS YH-1126 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS YH-1126，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sis-yh-1126-57794885",
+      "model": "SIS YH-1126",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358086_1749046062.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 12,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358086_1749046062.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358086_1749046062.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57794885.html",
+        "source_product_id": "57794885",
+        "source_product_key": "shangrui-57794885",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SIS YH-1209",
+      "name_en": "SIS YH-1209",
+      "name_i18n": {
+        "en": "SIS YH-1209",
+        "zh": "SIS YH-1209"
+      },
+      "description": "SIS YH-1209 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SIS YH-1209 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SIS YH-1209 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS YH-1209，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SIS YH-1209 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SIS YH-1209 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SIS YH-1209 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS YH-1209，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sis-yh-1209-57794886",
+      "model": "SIS YH-1209",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358088_1749046062.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 13,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358088_1749046062.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358088_1749046062.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57794886.html",
+        "source_product_id": "57794886",
+        "source_product_key": "shangrui-57794886",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SIS 1106",
+      "name_en": "SIS 1106",
+      "name_i18n": {
+        "en": "SIS 1106",
+        "zh": "SIS 1106"
+      },
+      "description": "SIS 1106 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SIS 1106 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SIS 1106 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS 1106，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SIS 1106 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SIS 1106 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SIS 1106 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS 1106，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sis-1106-57794887",
+      "model": "SIS 1106",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358087_1749046062.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 14,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358087_1749046062.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358087_1749046062.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57794887.html",
+        "source_product_id": "57794887",
+        "source_product_key": "shangrui-57794887",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SIS YH-1105",
+      "name_en": "SIS YH-1105",
+      "name_i18n": {
+        "en": "SIS YH-1105",
+        "zh": "SIS YH-1105"
+      },
+      "description": "SIS YH-1105 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SIS YH-1105 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SIS YH-1105 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS YH-1105，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SIS YH-1105 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SIS YH-1105 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SIS YH-1105 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SIS YH-1105，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sis-yh-1105-57794888",
+      "model": "SIS YH-1105",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358105_1749046193.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 15,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358105_1749046193.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358105_1749046193.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57794888.html",
+        "source_product_id": "57794888",
+        "source_product_key": "shangrui-57794888",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SSBR YH-2608",
+      "name_en": "SSBR YH-2608",
+      "name_i18n": {
+        "en": "SSBR YH-2608",
+        "zh": "SSBR YH-2608"
+      },
+      "description": "SSBR YH-2608 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SSBR YH-2608 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SSBR YH-2608 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SSBR YH-2608，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SSBR YH-2608 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SSBR YH-2608 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SSBR YH-2608 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SSBR YH-2608，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "ssbr-yh-2608-57794890",
+      "model": "SSBR YH-2608",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358115_1749046356.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 16,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358115_1749046356.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358115_1749046356.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57794890.html",
+        "source_product_id": "57794890",
+        "source_product_key": "shangrui-57794890",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SSBR YH-2605",
+      "name_en": "SSBR YH-2605",
+      "name_i18n": {
+        "en": "SSBR YH-2605",
+        "zh": "SSBR YH-2605"
+      },
+      "description": "SSBR YH-2605 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SSBR YH-2605 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SSBR YH-2605 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SSBR YH-2605，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SSBR YH-2605 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SSBR YH-2605 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SSBR YH-2605 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SSBR YH-2605，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "ssbr-yh-2605-57794891",
+      "model": "SSBR YH-2605",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358116_1749046356.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 17,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358116_1749046356.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10180/20358116_1749046356.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57794891.html",
+        "source_product_id": "57794891",
+        "source_product_key": "shangrui-57794891",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "LCR SBS 1475",
+      "name_en": "LCR SBS 1475",
+      "name_i18n": {
+        "en": "LCR SBS 1475",
+        "zh": "LCR SBS 1475"
+      },
+      "description": "LCR SBS 1475 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "LCR SBS 1475 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "LCR SBS 1475 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SBS 1475，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "LCR SBS 1475 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "LCR SBS 1475 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "LCR SBS 1475 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SBS 1475，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "lcr-sbs-1475-57805268",
+      "model": "LCR SBS 1475",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379459_1749196168.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 18,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379459_1749196168.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379459_1749196168.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57805268.html",
+        "source_product_id": "57805268",
+        "source_product_key": "shangrui-57805268",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "LCR SBS 3411",
+      "name_en": "LCR SBS 3411",
+      "name_i18n": {
+        "en": "LCR SBS 3411",
+        "zh": "LCR SBS 3411"
+      },
+      "description": "LCR SBS 3411 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "LCR SBS 3411 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "LCR SBS 3411 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SBS 3411，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "LCR SBS 3411 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "LCR SBS 3411 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "LCR SBS 3411 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SBS 3411，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "lcr-sbs-3411-57805269",
+      "model": "LCR SBS 3411",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379458_1749196168.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 19,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379458_1749196168.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379458_1749196168.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57805269.html",
+        "source_product_id": "57805269",
+        "source_product_key": "shangrui-57805269",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "LCR SBS 3546",
+      "name_en": "LCR SBS 3546",
+      "name_i18n": {
+        "en": "LCR SBS 3546",
+        "zh": "LCR SBS 3546"
+      },
+      "description": "LCR SBS 3546 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "LCR SBS 3546 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "LCR SBS 3546 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SBS 3546，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "LCR SBS 3546 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "LCR SBS 3546 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "LCR SBS 3546 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "LCR SBS 3546，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "lcr-sbs-3546-57805273",
+      "model": "LCR SBS 3546",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379465_1749196170.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 20,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379465_1749196170.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10190/20379465_1749196170.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57805273.html",
+        "source_product_id": "57805273",
+        "source_product_key": "shangrui-57805273",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SBS CH301",
+      "name_en": "SBS CH301",
+      "name_i18n": {
+        "en": "SBS CH301",
+        "zh": "SBS CH301"
+      },
+      "description": "SBS CH301 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SBS CH301 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SBS CH301 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS CH301，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SBS CH301 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SBS CH301 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SBS CH301 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS CH301，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sbs-ch301-57822198",
+      "model": "SBS CH301",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420710_1749537079.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 21,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420710_1749537079.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420710_1749537079.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57822198.html",
+        "source_product_id": "57822198",
+        "source_product_key": "shangrui-57822198",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SBS XJ-3032",
+      "name_en": "SBS XJ-3032",
+      "name_i18n": {
+        "en": "SBS XJ-3032",
+        "zh": "SBS XJ-3032"
+      },
+      "description": "SBS XJ-3032 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SBS XJ-3032 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SBS XJ-3032 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS XJ-3032，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SBS XJ-3032 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SBS XJ-3032 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SBS XJ-3032 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS XJ-3032，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sbs-xj-3032-57822202",
+      "model": "SBS XJ-3032",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420720_1749537101.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 22,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420720_1749537101.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420720_1749537101.jpg"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57822202.html",
+        "source_product_id": "57822202",
+        "source_product_key": "shangrui-57822202",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SBS CH520",
+      "name_en": "SBS CH520",
+      "name_i18n": {
+        "en": "SBS CH520",
+        "zh": "SBS CH520"
+      },
+      "description": "SBS CH520 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SBS CH520 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SBS CH520 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS CH520，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SBS CH520 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SBS CH520 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SBS CH520 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS CH520，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sbs-ch520-57822203",
+      "model": "SBS CH520",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420725_1749537124.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 23,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420725_1749537124.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420725_1749537124.jpg"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57822203.html",
+        "source_product_id": "57822203",
+        "source_product_key": "shangrui-57822203",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "PP PPH-T03",
+      "name_en": "PP PPH-T03",
+      "name_i18n": {
+        "en": "PP PPH-T03",
+        "zh": "PP PPH-T03"
+      },
+      "description": "PP PPH-T03 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "PP PPH-T03 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "PP PPH-T03 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "PP PPH-T03，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "PP PPH-T03 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "PP PPH-T03 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "PP PPH-T03 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "PP PPH-T03，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "pp-pph-t03-57822209",
+      "model": "PP PPH-T03",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420744_1749537196.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 24,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420744_1749537196.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10211/20420744_1749537196.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57822209.html",
+        "source_product_id": "57822209",
+        "source_product_key": "shangrui-57822209",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "SBS XJ-3031",
+      "name_en": "SBS XJ-3031",
+      "name_i18n": {
+        "en": "SBS XJ-3031",
+        "zh": "SBS XJ-3031"
+      },
+      "description": "SBS XJ-3031 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "SBS XJ-3031 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "SBS XJ-3031 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS XJ-3031，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "SBS XJ-3031 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "SBS XJ-3031 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "SBS XJ-3031 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "SBS XJ-3031，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "sbs-xj-3031-57832273",
+      "model": "SBS XJ-3031",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444243_1749646240.jpg",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 25,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444243_1749646240.jpg"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444243_1749646240.jpg"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57832273.html",
+        "source_product_id": "57832273",
+        "source_product_key": "shangrui-57832273",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B",
+      "name_en": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B",
+      "name_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B",
+        "zh": "Polyamide PA-6 CHIPS BL1340、Polyamide PA-6 CHIPS BL5400B"
+      },
+      "description": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL1340、Polyamide PA-6 CHIPS BL5400B，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL1340、Polyamide PA-6 CHIPS BL5400B，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "polyamide-pa-6-chips-bl1340-polyamide-pa-6-chips-bl5400b-57832274",
+      "model": "Polyamide PA-6 CHIPS BL1340 / Polyamide PA-6 CHIPS BL5400B",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444258_1749646334.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 26,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444258_1749646334.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444258_1749646334.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57832274.html",
+        "source_product_id": "57832274",
+        "source_product_key": "shangrui-57832274",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Polyamide PA-6 CHIPS BL3280M",
+      "name_en": "Polyamide PA-6 CHIPS BL3280M",
+      "name_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3280M",
+        "zh": "Polyamide PA-6 CHIPS BL3280M"
+      },
+      "description": "Polyamide PA-6 CHIPS BL3280M is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Polyamide PA-6 CHIPS BL3280M is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3280M is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL3280M，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Polyamide PA-6 CHIPS BL3280M is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Polyamide PA-6 CHIPS BL3280M is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3280M is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL3280M，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "polyamide-pa-6-chips-bl3280m-57832275",
+      "model": "Polyamide PA-6 CHIPS BL3280M",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444259_1749646356.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 27,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444259_1749646356.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444259_1749646356.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57832275.html",
+        "source_product_id": "57832275",
+        "source_product_key": "shangrui-57832275",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A",
+      "name_en": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A",
+      "name_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A",
+        "zh": "Polyamide PA-6 CHIPS BL3240A、Polyamide PA-6 CHIPS BL3200A，Polyamide PA-6 CHIPS BL3180A"
+      },
+      "description": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL3240A、Polyamide PA-6 CHIPS BL3200A，Polyamide PA-6 CHIPS BL3180A，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL3240A、Polyamide PA-6 CHIPS BL3200A，Polyamide PA-6 CHIPS BL3180A，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "polyamide-pa-6-chips-bl3240a-polyamide-pa-6-chips-bl3200a-polyamide-pa-57832277",
+      "model": "Polyamide PA-6 CHIPS BL3240A / Polyamide PA-6 CHIPS BL3200A / Polyamide PA-6 CHIPS BL3180A",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444260_1749646375.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 28,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444260_1749646375.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444260_1749646375.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57832277.html",
+        "source_product_id": "57832277",
+        "source_product_key": "shangrui-57832277",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Polyamide PA-6 CHIPS BL3280",
+      "name_en": "Polyamide PA-6 CHIPS BL3280",
+      "name_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3280",
+        "zh": "Polyamide PA-6 CHIPS BL3280"
+      },
+      "description": "Polyamide PA-6 CHIPS BL3280 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Polyamide PA-6 CHIPS BL3280 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3280 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL3280，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Polyamide PA-6 CHIPS BL3280 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Polyamide PA-6 CHIPS BL3280 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Polyamide PA-6 CHIPS BL3280 is listed in the customer's Waterproofing Materials source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Polyamide PA-6 CHIPS BL3280，来源于客户中文网站“防水领域”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "polyamide-pa-6-chips-bl3280-57832278",
+      "model": "Polyamide PA-6 CHIPS BL3280",
+      "category_slug": "waterproofing-materials",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444262_1749646392.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 29,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444262_1749646392.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10223/20444262_1749646392.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57832278.html",
+        "source_product_id": "57832278",
+        "source_product_key": "shangrui-57832278",
+        "source_category": "防水领域",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "TPE YS-01",
+      "name_en": "TPE YS-01",
+      "name_i18n": {
+        "en": "TPE YS-01",
+        "zh": "TPE YS-01"
+      },
+      "description": "TPE YS-01 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "TPE YS-01 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "TPE YS-01 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-01，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "TPE YS-01 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "TPE YS-01 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "TPE YS-01 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-01，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "tpe-ys-01-57883085",
+      "model": "TPE YS-01",
+      "category_slug": "tpe",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562874_1750377547.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 30,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562874_1750377547.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562874_1750377547.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57883085.html",
+        "source_product_id": "57883085",
+        "source_product_key": "shangrui-57883085",
+        "source_category": "TPE",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "TPE YS-02",
+      "name_en": "TPE YS-02",
+      "name_i18n": {
+        "en": "TPE YS-02",
+        "zh": "TPE YS-02"
+      },
+      "description": "TPE YS-02 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "TPE YS-02 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "TPE YS-02 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-02，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "TPE YS-02 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "TPE YS-02 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "TPE YS-02 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-02，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "tpe-ys-02-57883086",
+      "model": "TPE YS-02",
+      "category_slug": "tpe",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562872_1750377547.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 31,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562872_1750377547.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562872_1750377547.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57883086.html",
+        "source_product_id": "57883086",
+        "source_product_key": "shangrui-57883086",
+        "source_category": "TPE",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "TPE YS-03",
+      "name_en": "TPE YS-03",
+      "name_i18n": {
+        "en": "TPE YS-03",
+        "zh": "TPE YS-03"
+      },
+      "description": "TPE YS-03 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "TPE YS-03 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "TPE YS-03 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-03，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "TPE YS-03 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "TPE YS-03 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "TPE YS-03 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-03，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "tpe-ys-03-57883087",
+      "model": "TPE YS-03",
+      "category_slug": "tpe",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562871_1750377547.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 32,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562871_1750377547.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562871_1750377547.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57883087.html",
+        "source_product_id": "57883087",
+        "source_product_key": "shangrui-57883087",
+        "source_category": "TPE",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "TPE YS-04",
+      "name_en": "TPE YS-04",
+      "name_i18n": {
+        "en": "TPE YS-04",
+        "zh": "TPE YS-04"
+      },
+      "description": "TPE YS-04 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "TPE YS-04 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "TPE YS-04 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-04，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "TPE YS-04 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "TPE YS-04 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "TPE YS-04 is listed in the customer's TPE source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "TPE YS-04，来源于客户中文网站“TPE”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "tpe-ys-04-57883088",
+      "model": "TPE YS-04",
+      "category_slug": "tpe",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562873_1750377547.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 33,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562873_1750377547.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10282/20562873_1750377547.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57883088.html",
+        "source_product_id": "57883088",
+        "source_product_key": "shangrui-57883088",
+        "source_category": "TPE",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055",
+      "name_en": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055",
+      "name_i18n": {
+        "en": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055",
+        "zh": "EVA MV1055、EVA WV1055、EVA YV1055、EVA SV1055"
+      },
+      "description": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA MV1055、EVA WV1055、EVA YV1055、EVA SV1055，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA MV1055、EVA WV1055、EVA YV1055、EVA SV1055，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "eva-mv1055-eva-wv1055-eva-yv1055-eva-sv1055-57918007",
+      "model": "EVA MV1055 / EVA WV1055 / EVA YV1055 / EVA SV1055",
+      "category_slug": "eva",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643132_1750855658.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 34,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643132_1750855658.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643132_1750855658.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918007.html",
+        "source_product_id": "57918007",
+        "source_product_key": "shangrui-57918007",
+        "source_category": "EVA",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "EVA USI-2806 / EVA USI-629",
+      "name_en": "EVA USI-2806 / EVA USI-629",
+      "name_i18n": {
+        "en": "EVA USI-2806 / EVA USI-629",
+        "zh": "EVA USI-2806、EVA USI-629"
+      },
+      "description": "EVA USI-2806 / EVA USI-629 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "EVA USI-2806 / EVA USI-629 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "EVA USI-2806 / EVA USI-629 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA USI-2806、EVA USI-629，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "EVA USI-2806 / EVA USI-629 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "EVA USI-2806 / EVA USI-629 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "EVA USI-2806 / EVA USI-629 is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA USI-2806、EVA USI-629，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "eva-usi-2806-eva-usi-629-57918008",
+      "model": "EVA USI-2806 / EVA USI-629",
+      "category_slug": "eva",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643133_1750855677.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 35,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643133_1750855677.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643133_1750855677.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918008.html",
+        "source_product_id": "57918008",
+        "source_product_key": "shangrui-57918008",
+        "source_category": "EVA",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "EVA V5120J / EVA V6020M / EVA V6220R",
+      "name_en": "EVA V5120J / EVA V6020M / EVA V6220R",
+      "name_i18n": {
+        "en": "EVA V5120J / EVA V6020M / EVA V6220R",
+        "zh": "EVA V5120J、EVA V6020M、EVA V6220R"
+      },
+      "description": "EVA V5120J / EVA V6020M / EVA V6220R is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "EVA V5120J / EVA V6020M / EVA V6220R is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "EVA V5120J / EVA V6020M / EVA V6220R is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA V5120J、EVA V6020M、EVA V6220R，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "EVA V5120J / EVA V6020M / EVA V6220R is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "EVA V5120J / EVA V6020M / EVA V6220R is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "EVA V5120J / EVA V6020M / EVA V6220R is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA V5120J、EVA V6020M、EVA V6220R，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "eva-v5120j-eva-v6020m-eva-v6220r-57918009",
+      "model": "EVA V5120J / EVA V6020M / EVA V6220R",
+      "category_slug": "eva",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10356/20711712_1751334946.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 36,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10356/20711712_1751334946.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10356/20711712_1751334946.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918009.html",
+        "source_product_id": "57918009",
+        "source_product_key": "shangrui-57918009",
+        "source_category": "EVA",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "EVA UE2860TK",
+      "name_en": "EVA UE2860TK",
+      "name_i18n": {
+        "en": "EVA UE2860TK",
+        "zh": "EVA UE2860TK"
+      },
+      "description": "EVA UE2860TK is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "EVA UE2860TK is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "EVA UE2860TK is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA UE2860TK，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "EVA UE2860TK is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "EVA UE2860TK is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "EVA UE2860TK is listed in the customer's EVA source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "EVA UE2860TK，来源于客户中文网站“EVA”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "eva-ue2860tk-57918011",
+      "model": "EVA UE2860TK",
+      "category_slug": "eva",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643139_1750855774.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 37,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643139_1750855774.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643139_1750855774.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918011.html",
+        "source_product_id": "57918011",
+        "source_product_key": "shangrui-57918011",
+        "source_category": "EVA",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Masterbatch-White",
+      "name_en": "Masterbatch-White",
+      "name_i18n": {
+        "en": "Masterbatch-White",
+        "zh": "Masterbatch-White"
+      },
+      "description": "Masterbatch-White is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Masterbatch-White is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Masterbatch-White is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Masterbatch-White，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Masterbatch-White is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Masterbatch-White is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Masterbatch-White is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Masterbatch-White，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "masterbatch-white-57918091",
+      "model": "Masterbatch-White",
+      "category_slug": "masterbatch",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643276_1750856974.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 38,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643276_1750856974.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643276_1750856974.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918091.html",
+        "source_product_id": "57918091",
+        "source_product_key": "shangrui-57918091",
+        "source_category": "色母粒",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Masterbatch-Colored",
+      "name_en": "Masterbatch-Colored",
+      "name_i18n": {
+        "en": "Masterbatch-Colored",
+        "zh": "Masterbatch-Colored"
+      },
+      "description": "Masterbatch-Colored is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Masterbatch-Colored is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Masterbatch-Colored is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Masterbatch-Colored，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Masterbatch-Colored is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Masterbatch-Colored is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Masterbatch-Colored is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Masterbatch-Colored，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "masterbatch-colored-57918092",
+      "model": "Masterbatch-Colored",
+      "category_slug": "masterbatch",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643275_1750856974.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 39,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643275_1750856974.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643275_1750856974.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918092.html",
+        "source_product_id": "57918092",
+        "source_product_key": "shangrui-57918092",
+        "source_category": "色母粒",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Masterbatch-Black",
+      "name_en": "Masterbatch-Black",
+      "name_i18n": {
+        "en": "Masterbatch-Black",
+        "zh": "Masterbatch-Black"
+      },
+      "description": "Masterbatch-Black is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Masterbatch-Black is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Masterbatch-Black is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Masterbatch-Black，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Masterbatch-Black is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Masterbatch-Black is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Masterbatch-Black is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "Masterbatch-Black，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "masterbatch-black-57918093",
+      "model": "Masterbatch-Black",
+      "category_slug": "masterbatch",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643277_1750856974.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 40,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643277_1750856974.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643277_1750856974.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918093.html",
+        "source_product_id": "57918093",
+        "source_product_key": "shangrui-57918093",
+        "source_category": "色母粒",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    },
+    {
+      "name": "Carbon Black N330",
+      "name_en": "Carbon Black N330",
+      "name_i18n": {
+        "en": "Carbon Black N330",
+        "zh": "炭黑 N330"
+      },
+      "description": "Carbon Black N330 is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_en": "Carbon Black N330 is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "description_i18n": {
+        "en": "Carbon Black N330 is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "炭黑 N330，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "overview": "Carbon Black N330 is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_en": "Carbon Black N330 is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+      "overview_i18n": {
+        "en": "Carbon Black N330 is listed in the customer's Masterbatch source catalog. Detailed specifications and application suitability are confirmed for each inquiry.",
+        "zh": "炭黑 N330，来源于客户中文网站“色母粒”产品分类。详细参数及适用性以询盘确认结果为准。"
+      },
+      "slug": "carbon-black-n330-57918094",
+      "model": "Carbon Black N330",
+      "category_slug": "masterbatch",
+      "image_url": "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643278_1750856974.png",
+      "features": [],
+      "features_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "applications": [],
+      "applications_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "advantages": [],
+      "advantages_i18n": {
+        "en": [],
+        "zh": []
+      },
+      "specs": {},
+      "sort_order": 41,
+      "is_active": true,
+      "extra_data": {
+        "gallery": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643278_1750856974.png"
+        ],
+        "source_images": [
+          "https://aimg8.dlssyht.cn/u/2305336/product/10322/20643278_1750856974.png"
+        ],
+        "source_facts": {},
+        "source_specifications": {},
+        "source_site": "www.shangrui-chemical.com",
+        "source_url": "http://www.shangrui-chemical.com/pro_57918094.html",
+        "source_product_id": "57918094",
+        "source_product_key": "shangrui-57918094",
+        "source_category": "色母粒",
+        "imported_language_basis": "source_zh_with_verified_en_translation"
+      }
+    }
+  ],
+  "generatedAt": "2026-10-13T04:06:11.198Z"
+}
