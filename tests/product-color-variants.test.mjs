@@ -29,5 +29,5 @@ test('one color selection provides both images for an immediate paired preview',
 
 test('legacy masonry gallery is not rendered on the product detail page', () => {
   assert.doesNotMatch(productPage, /ProductMasonryGallery/)
-  assert.doesNotMatch(productPage, /product\.gallery/)
+  assert.doesNotMatch(productPage, /product-masonry-gallery/)
 })

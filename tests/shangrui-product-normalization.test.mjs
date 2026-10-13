@@ -48,6 +48,14 @@ test('normalized English fields contain no Chinese and no prohibited promises', 
   assert.doesNotMatch(english, /质保|保修|质量保证|warrant(?:y|ies)|guarantee(?:d)?/i)
 })
 
+test('English source specification labels keep their original technical wording', () => {
+  const result = normalizeSourceProducts(source.products)
+  const product = result.products.find((item) => item.extra_data.source_product_id === '57770104')
+  assert.ok(product)
+  assert.ok(Object.keys(product.specs).some((key) => key.includes('Toluene Solution Viscosity')))
+  assert.ok(Object.keys(product.specs).every((key) => !key.startsWith('Source specification')))
+})
+
 test('normalization output cannot target or overwrite the existing PLA Basic slug', () => {
   const result = normalizeSourceProducts(source.products)
   assert.ok(result.products.every((product) => product.slug !== 'pla-basic'))

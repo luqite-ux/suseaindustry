@@ -74,7 +74,7 @@ function englishSpecs(sourceSpecs) {
   let fallbackIndex = 0
   for (const [sourceKey, sourceValue] of Object.entries(sourceSpecs || {})) {
     const matched = SPEC_KEY_MAP.find(([pattern]) => pattern.test(sourceKey))
-    const key = /^[\x00-\x7f]+$/.test(sourceKey) ? sourceKey : (matched?.[1] || `Source specification ${++fallbackIndex}`)
+    const key = !/[\u3400-\u9fff]/u.test(sourceKey) ? sourceKey : (matched?.[1] || `Source specification ${++fallbackIndex}`)
     const value = VALUE_MAP.get(String(sourceValue).trim()) || String(sourceValue)
     result[key] = /[\u3400-\u9fff]/u.test(value) ? `See source specification ${fallbackIndex || 1}` : value
   }
