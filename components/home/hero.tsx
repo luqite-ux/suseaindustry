@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const slides = [
-  { image: "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/suseaindustry/banners/20260930/2efc3be51a69cb9b-filament-range.jpg", eyebrow: "PLA Basic in 19 production colors", title: "One consistent filament, a complete color range", description: "PLA Basic 1.75 mm filament for distributors, cross-border sellers, education, makers, and industrial buyers.", primary: { href: "/products/pla-basic", label: "Explore all 19 colors" }, secondary: { href: "/contact", label: "Request a quote" } },
-  { image: "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/suseaindustry/banners/20260930/4261234ff2640766-color-development.jpg", eyebrow: "Color-masterbatch development", title: "Color options built for catalog-ready product lines", description: "Choose from the current PLA Basic range or discuss color matching and OEM labeling for your market.", primary: { href: "/capabilities", label: "View capabilities" }, secondary: { href: "/products/pla-basic", label: "See the color range" } },
-  { image: "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/suseaindustry/banners/20260930/401005d7000033de-production-process.jpg", eyebrow: "Production and OEM support", title: "From material preparation to finished filament", description: "Discuss target colors, packaging, order volume, and application requirements with our export team.", primary: { href: "/contact", label: "Start an inquiry" }, secondary: { href: "/about", label: "About Shuzhihai" } },
+  { image: "/images/banners/filament-range.webp", eyebrow: "PLA Basic in 19 production colors", title: "One consistent filament, a complete color range", description: "PLA Basic 1.75 mm filament for distributors, cross-border sellers, education, makers, and industrial buyers.", primary: { href: "/products/pla-basic", label: "Explore all 19 colors" }, secondary: { href: "/contact", label: "Request a quote" } },
+  { image: "/images/banners/color-development.webp", eyebrow: "Color-masterbatch development", title: "Color options built for catalog-ready product lines", description: "Choose from the current PLA Basic range or discuss color matching and OEM labeling for your market.", primary: { href: "/capabilities", label: "View capabilities" }, secondary: { href: "/products/pla-basic", label: "See the color range" } },
+  { image: "/images/banners/production-process.webp", eyebrow: "Production and OEM support", title: "From material preparation to finished filament", description: "Discuss target colors, packaging, order volume, and application requirements with our export team.", primary: { href: "/contact", label: "Start an inquiry" }, secondary: { href: "/about", label: "About Shuzhihai" } },
 ] as const
 
 export function Hero() {
@@ -30,7 +30,15 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-border bg-white" aria-roledescription="carousel" aria-label="Shuzhihai highlights">
       <div className="relative aspect-[16/10] w-full bg-slate-100 sm:absolute sm:inset-0 sm:aspect-auto">
-        {slides.map((item, index) => <Image key={item.image} src={item.image} alt="" fill priority={index === 0} sizes="100vw" className={cn("object-cover object-center transition-opacity duration-700", index === active ? "opacity-100" : "pointer-events-none opacity-0")} />)}
+        <Image
+          key={slide.image}
+          src={slide.image}
+          alt=""
+          fill
+          priority={active === 0}
+          sizes="100vw"
+          className="object-cover object-center"
+        />
       </div>
       <div className="pointer-events-none absolute inset-0 hidden bg-gradient-to-r from-white via-white/88 to-white/5 sm:block" />
       <div className="relative mx-auto flex max-w-7xl flex-col justify-center px-4 pb-20 pt-8 sm:min-h-[620px] sm:px-6 sm:py-20 lg:min-h-[720px] lg:px-8">

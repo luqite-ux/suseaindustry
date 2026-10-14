@@ -13,7 +13,14 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 2678400,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'pub-c7a22068052144a5805830c30d280128.r2.dev',
+      },
+    ],
   },
 }
 

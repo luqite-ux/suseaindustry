@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    images: [{ url: "/images/hero-composite-landscape.png", alt: "PLA Basic filament and Shuzhihai production line" }],
+    images: [{ url: "/images/banners/filament-range.webp", alt: "PLA Basic filament and Shuzhihai production line" }],
   },
 }
 
