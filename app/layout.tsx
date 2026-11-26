@@ -52,6 +52,10 @@ export default async function RootLayout({
         <SiteFooter />
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify([organization,website]).replace(/</g,'\\u003c')}} />
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <script
+          async
+          src={`https://admin.globle-trade.com/api/public/analytics.js?tenantId=${encodeURIComponent(process.env.NEXT_PUBLIC_TENANT_ID || "278a288f-069f-449c-97f1-670df744bc66")}`}
+        />
       </body>
     </html>
   )
